@@ -1,0 +1,10 @@
+/* Add some css classes to fix submit button width size*/
+.reg-box {
+    margin-top: 5%;
+    height: 700px;
+}
+
+.reg-form {
+    padding: 25px;
+    background-color: none;
+}

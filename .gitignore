@@ -1,0 +1,31 @@
+# Don't add docx recovery files
+~$*.docx
+
+# Don't include items in resources folder
+resources/
+
+# Don't include machine specific vscode settings
+.vscode/
+
+# Don't include any databases
+*.db
+
+# Don't include cache folders
+__pycache__/
+.pytest_cache/
+
+# Don't include debug.log
+debug.log
+
+# Don't include python bytecode
+*.pyc
+
+# Don't include virtual environments
+env/
+venv/
+
+# Don't include stray node_modules folders
+node_modules/
+
+# Don't include package-lock.json
+package-lock.json

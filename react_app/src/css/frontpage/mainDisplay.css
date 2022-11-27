@@ -1,0 +1,49 @@
+.banner-div {
+    width: 100%;
+    height: 700px;
+}
+
+.banner-img {
+    width: 100%;
+    height: 500px;
+    object-fit: cover;
+    animation-name: mainDisplay-fadeIn;
+    animation-iteration-count: 1;
+    animation-timing-function: ease-in;
+    animation-duration: 0.5s;
+}
+
+#overlay {
+    position: absolute; /* Sit on top of the page content */
+    display: block; /* Hidden by default */
+    width: 100%; /* Full width (cover the whole page) */
+    height: 500px; /* Full height (cover the whole page) */
+    text-align: center;
+    padding: 10%;
+    color: aliceblue;
+    font-size: 300%;
+    text-shadow: 2px 2px 2px  dimgray;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0,0,0,0.5); /* Black background with opacity */
+    z-index: 2; /* Specify a stack order in case you're using a different order for other elements */
+    animation-name: mainDisplay-fadeIn;
+    animation-iteration-count: 1;
+    animation-timing-function: ease-in;
+    animation-duration: 1s;
+}
+
+
+@keyframes mainDisplay-fadeIn {
+	0% {
+		opacity: 0;
+    }
+    80% {
+        opacity: 0.5;
+    }
+	100% {
+		opacity: 1;
+	}
+}

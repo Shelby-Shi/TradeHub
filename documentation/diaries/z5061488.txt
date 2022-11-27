@@ -1,0 +1,56 @@
+week 1
+17/9- We formed our group and discussed which project to do. We decided to do investmentSimulator after switching from filmFinder. We split into frontend and backend groups. We discussed epics and user stories, and decided on an extra weekly meeting time.
+
+20/9- We wrote concrete user stories and made a large storyboard that encompassed all user stories. We discussed more novelty options as well as product name and logos. We decided for everyone to do indidual storyboards to show to Rachid at the next tute. I uploaded the user stories onto Jira later that day.
+
+week 2
+24/9- Decided sprint sizes, re-organised some split user story 3.6 into two user stories, merged epics 1 and 2. I reflected the changes in Jira. Rachid reviewed our work and seems good so far. Drafted the sprints backlog for sprints 1,2 and 3. Decided on a tech stack. We decided everyone would do their own research onto what novelties to do.
+
+27/9- Discussed novelty ideas and came back with top 3 ideas. I sent these off to Rachid. We then went through our current storyboards and reviewed them together. We then split up the workload for the proposal into 5 parts.
+
+week 3
+
+29/9- Created screen shots of User stories in Jira. Moved all User stories to a seperate document for later use.
+
+1/10- In team meeting we decided on what novelties to implement, we chose 3 novelties and modified some details. We assigned things that needed to be done before meeting on Sunday to do proposal. I finished my draft of my part of the proposal.
+
+4/10- Moved my part into the proposal document, discussed current things that needed to be done before the end of the day. Mainly restructuring the storyboards to fit into the proposal.
+
+week 4
+8/10- Decided to develop the backend first, then implement the frontend. Split off with Jet and Shelby to work on the yfinance API, but had to leave the meeting early. Team finished doing the API backend and created unit tests
+
+11/10- Started working on stock details page. Split off with Shelby, Youshi and Hazel to develop the front-end. Learnt alot about react. Got the stock overview to work with routes, but haven't pulled data from backend yet
+
+week 5
+12/10- Continued on with stock details page. I got the stock details page to properly display numbers from the backend for all the data. Started working on Stock Search and finished given a string returns matching companies and their codes.
+14/10 -met up with group to practice demo A
+15/10 -Demonstration and Retrespective A
+16/10 -Started working on the watchlist page with Hazel. We worked on creating the databse table needed for the watchlist
+17/10 -Started setting up watchlist, and completed the add functionality, backend to frontend.
+18/10 -Set stuff up for retrospective, I was the scribe, changed database format
+
+week 6
+19/10 -Completed the search functionality for watchlist, double checked Hazel's implementation on the remove button.
+20/10 -Discussed our completed user stories with team members.
+22/10 -Team meeting, we decided on next sprints 
+25/10 Team meeting. Added a check to backend to deal with taking into account stocks on ASX not being active. Discussed bet predictions user story.
+
+week 7
+26/11 -Worked on some backend functionality for prediction betting.
+29/11 -Finished reviewing the backend implementation for the prediction betting that Jet finished, and unit testing.
+1/11 -Reviewed the front end implementation for the predicton betting. Discussed implementing the sytem on the CSE machines and talked about code comments. Discussed additional unit testing with shelby and Jet. Tested the process of a bet finishing and fixed minor bugs.
+
+week 8
+2/11 -Added additional unit tests to the prediction betting backend for functionality that Jet added. Added some stuff to be put into the software report.
+4/11 -Had a quick meeting with the team to merge to master, rehearse the demo and fix bugs
+5/11 -Had Demo, and discussed retro B with team. Allocated tasks for sprint 3 to users. Started work on the frontend for the accoutn details user story by adding appropiate button functionality. 
+6/11 -Kept working on frontend for account details user story and completed it with Youshi and Hazel. Started work on change password when logged in user story. later that night I completed the backend functionality for it.
+8/11 -Working with Youshi ad Hazel, completed the password change when both logged in and not logged in.
+
+Week 9
+9/11 -Completed unit testing for password_change user stories. Started work on the delete account backend with Youshi and Hazel.
+10/11 -Group meeting to discuss final changes to the system, and the final report. after the meeting I added a start_date field to the watchlist table in the database
+11/11 -I added missing functionality to the portfolio Page that was needed to cover all objectives.
+14/11 -I started adding my setions to the report. I nearly finished it all
+15/11 -added my sections to the report and discussed with team how to format and what content should go in the user manual.
+16/11 -I finished the reference list for the report

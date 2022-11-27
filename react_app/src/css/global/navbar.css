@@ -1,0 +1,81 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+body {
+    font-family: 'Poppins', sans-serif;
+}
+
+.navbar-custom { 
+    background-color:black; /*#6C3483*/
+    width: 100%;
+    display: inline-flex;
+    color: white;
+} 
+
+.setup {
+    color: white;
+    border-color: white;
+}
+
+.setup:hover {
+    background-color: white;
+    color: black;
+}
+
+.nav-link {
+    color: #D6D6D6;
+}
+
+.nav-link:hover {
+    color: white;
+}
+
+.nav-item {
+    width: 150px;
+    text-align: center;
+}
+
+/* Hamburger Icon Animation and Setting*/
+.hamburger:hover {
+    cursor: pointer;
+}
+
+.bar1, .bar2, .bar3 {
+    display: none;
+    width: 35px;
+    height: 5px;
+    background-color: white;
+    margin: 6px 0;
+    transition: 0.4s;
+}
+
+.change .bar1 {
+    -webkit-transform: rotate(-45deg) translate(-9px, 6px);
+    transform: rotate(-45deg) translate(-9px, 6px);
+}
+
+.change .bar2 {opacity: 0;}
+
+.change .bar3 {
+-webkit-transform: rotate(45deg) translate(-8px, -8px);
+transform: rotate(45deg) translate(-8px, -8px);
+}
+
+
+/* Update css classes on collapse */
+@media (max-width: 991px) {
+    .login {
+        color: #D6D6D6;
+        width: 150px;
+        border: none;
+    }
+
+    .login:hover {
+        color: black;
+    }
+
+    .bar1, .bar2, .bar3 {
+        display: block;
+    }
+  }
+
+

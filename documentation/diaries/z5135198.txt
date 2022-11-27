@@ -1,0 +1,67 @@
+Name:Jiaying Yi
+zID: z5135198
+
+Week1
+    2020/09/17: We formed the group. And we split into two groups for front-end and back-end.
+    2020/09/20: We came up with the list of novelty ideas and user stories based on project spec.
+
+Week2
+    2020/09/24: We went through the storyboards for individual user stories.I adjusted the storyboard for 1.3 and 1.4.
+    2020/09/27: We assign to do the individual part of the proposal. Before next week's tutorial, 
+we need to create template for the individual section for the proposal.
+                I need to create the background template before week3 tutorial.
+
+Week3
+    2020/09/30: I created the template for background.
+    2020/10/01: I finished the background based on group member suggestions.
+    2020/10/04: I finalised the background and do proofreading with group members to double check every thing fit in
+    PDF.
+
+Week4
+   2020/10/08: Working with youshi to setup database and unit test.Others will work on api and front-end.
+   2020/10/11: Working with react to create stock detail page. 
+   The next meeting to continue working on stock detail page with input data.
+
+Week5
+    2020/10/12: Group members are assigned to each presentation part.I was assigned to present login details.
+    2020/10/14: Quick meeting with group to practice the demo with timing. Double check content of presentation,
+    website working properly on local machine and make sure every thing push to master branch.
+    2020/10/15: Present work progress for demoA. Groups start on retrospectiveA and assign workload of spint 2.
+    2020/10/16: Short meeting with Dom for setting watchlist database.
+
+Week6:
+    2020/10/19: After group meeting,I separate,adjuste the functionality related to watchlist and most of watchlist test.
+    2020/10/20: Finished remove function in the stock_detail page.
+    2020/10/21: Refactoring the function in flaskapi.py by adding a function in api.py to retrieve only the neccessary data in order to
+ boost the watchlist loading speed and adding remove button in watchlist.
+    2020/10/22: Meeting with group and assign workload for spint 3.
+                Quick meeting with Youshi to divide the workload of back end for stock advisor.
+    2020/10/23: Finishing the backend fuction for advisor sell and unit test.
+                Quick meeting with Youshi to divide front-end workload for advisor page.
+    2020/10/25:General team meeting to discuss the progress so far.
+
+Week7:
+    2020/10/27: Pair programming with Youshi to set up advisor-buy in front-end.
+                Changing the database of company_id by adding company_name attribute. Because our program become
+redundent by doubling checking company has info or not. We wrote a filter program that filter out the company that doesn't have info and
+store as csv file and in our database.
+    2020/10/28: Setting up the advisor-sell in the front-end.
+    2020/10/29: General meeting with the group to discuss the progress.
+    2020/10/31: Improving the UX experience by adding error message in advisor sell.
+
+Week8:
+    2020/11/02: Add backend and unit test for advisor sell.
+                Add pop up window for advisor_sell page.
+                Improve the buy sell popup window in stock_detail and advisor page.
+    2020/11/04: Work with Youshi and Dom to do the account detail page.
+    2020/11/08: Work with Youshi and Dom to do the chang password page. 
+                The change password with or without loggin
+                Add additional check to filter the csv file by check if there is any data for volumn in last five days.
+    2020/11/09: Work with Youshi and Dom doing delete_account page
+                Improve the test for advisor and watchlist based on change of database.
+    2020/11/10: Discuss with Youshi to move the errorcheck for changepassword to the backend and debug
+                Group meeting about discuss the final report
+Week9
+    2020/11/12 Group meeting to allocate part of report
+    2020/11/14 Debugging watchlist the props doesn't pass to watchlist result properly
+    2020/11/15 Finished my part of the report

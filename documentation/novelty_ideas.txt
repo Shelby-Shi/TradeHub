@@ -1,0 +1,22 @@
+VIP accounts/subscribers?
+Loans (predatory)
+Risk analysis of ‘various’ accuracy
+News via scraping or fake news
+Setup groups of investors
+Private forums like r/wallstreetbets
+Cryptocurrency
+Meme stock market
+Sign in with Google/Facebook/API
+Auto selling under certain conditions
+Recommendation of relevant stocks
+Sort
+Basic funds ?
+Email notification + verification + password reset
+Live markets
+2 factor authentication via SMS/ email/ authenticator app
+Multiple watchlists + searchable + filters
+Sell / buy at set price
+History of transactions
+Account initialize
+porfolio contains graph of user performance
+cat advisor

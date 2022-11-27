@@ -1,0 +1,16 @@
+.Stock-name { 
+    text-align: center;
+    font-size: 500%;
+}
+
+.Graph {
+    font-size: 200%;
+}
+
+.graph-img {
+  width: 50%;
+}
+
+.table {
+  text-align: center;
+}
